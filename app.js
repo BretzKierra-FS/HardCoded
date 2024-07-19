@@ -6,7 +6,7 @@ const fs = require('fs');
 let directory_name = "./";
 let fileNames = fs.readdirSync(directory_name);
 
-// Hard-coded secret key
+//Hard coded secret key
 const secretKey = "secret-key";
 
 const server = http.createServer((req, res) => {
